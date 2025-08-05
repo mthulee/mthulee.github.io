@@ -1,0 +1,19 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #4D4949;
+  background-color: #EDF6D6;
+}
+
+h1, h3, h4 {
+  font-family: monospace;
+}
+
+nav a.nav-link {
+  font-weight: bold;
+  color: #800000;
+}
+
+nav a.nav-link:hover {
+  text-decoration: underline;
+}
