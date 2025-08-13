@@ -43,11 +43,15 @@
     }
 
     .nav-links a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: filter 0.3s ease;
     }
-
+    
+    .nav-links a:hover {
+      filter: blur(2px);
+    }
     /*Hero Section*/
     .hero {
       text-align: center;
@@ -74,12 +78,12 @@
       border: none;
       cursor: pointer;
       font-weight: bold;
-      transition: filter 0.3s ease;
+      transition: transform 0.3s ease;
     }
-
-button:hover {
-  filter: blur(2px);
-}
+    
+    button:hover {
+      transform: scale(1.05);
+    }
 
     /*Product Grid*/
     .products {
