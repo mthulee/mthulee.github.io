@@ -97,8 +97,11 @@
       height: 200px;        /* fixed height for all images */
       object-fit: cover;    /* crop instead of stretching */
       border-radius: 8px;   /* optional rounded corners */
-      max-width: 100%;
-      border-radius: 8px;
+      transition: transform 0.3s ease; /* smooth effect */
+    }
+
+    .product img:hover {
+      transform: scale(1.1); /* 10% zoom */
     }
 
     .product h3 {
